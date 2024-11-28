@@ -1,6 +1,7 @@
 package com.example.tugasbinabita
 
 import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class Homework(
