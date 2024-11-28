@@ -6,6 +6,7 @@ import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteException
 import com.example.tugasbinabita.DatabaseContract.HomeworkColumns.Companion.TABLE_NAME
+import com.example.tugasbinabita.DatabaseContract.HomeworkColumns.Companion._ID
 
 class HomeworkHelper(context: Context) {
     private var databaseHelper : DatabaseHelper = DatabaseHelper(context)
