@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.pertemuan7"
-    compileSdk = 34
+    namespace = "com.example.tugasbinabita"
+    compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.pertemuan7"
+        applicationId = "com.example.tugasbinabita"
         minSdk = 27
         targetSdk = 34
         versionCode = 1
