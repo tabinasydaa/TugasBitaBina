@@ -13,13 +13,19 @@
         android:theme="@style/Theme.TugasBinaBIta"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".HomeworkActivity"
+            android:exported="true"
+            android:theme="@style/Base.Theme.TugasBinaBIta">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddHomeworkActivity"
+            android:exported="true"
+            android:theme="@style/Base.Theme.TugasBinaBIta">
         </activity>
     </application>
 
