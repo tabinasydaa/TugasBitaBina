@@ -3,7 +3,7 @@ package com.example.tugasbinabita
 import android.os.Parcelable
 
 @Parcelize
-class Homework (
+data class Homework(
     var id: Int = 0,
     var title: String? = null,
     var description: String? = null,
